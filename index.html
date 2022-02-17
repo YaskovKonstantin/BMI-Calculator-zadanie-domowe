@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+    <p>Oblicz swój wskaźnik masy ciała </p>
+
+    <form oninput="result1.value = Weight.value/(Hight.value/100*Hight.value/100)">
+        <input type="number" name="Hight" id="h" autofocus required> Podaj wzrost<br>
+        <input type="number" name="Weight" id="w" required> Podaj wage<br>
+        <br>
+        <output id="result1"></output><br>
+     </form>  
+
+    <img src="assets/img/body-mass-index-bmi-chart-in-libs-kg-centimeters-and-feet-formula-to-calculate-bmi-illustration-of-different-body-type-2ENDY7X.jpg" alt="Oblicz wskaźnik masy ciała ">
+</body>
+</html>
